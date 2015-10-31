@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client", "src\Hepsi.Http.Client\Hepsi.Http.Client.csproj", "{962AC4A1-D63B-45E4-8218-3EF45523F367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B04BD5CF-4AEB-4EDB-B77D-3B649BCB8868}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client.Testing", "src\Hepsi.Http.Client.Testing\Hepsi.Http.Client.Testing.csproj", "{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tests", ".tests", "{ADAEEEB8-D917-48E0-94D0-CF1AFDE7C3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client.UnitTests", "src\tests\Hepsi.Http.Client.UnitTests\Hepsi.Http.Client.UnitTests.csproj", "{D29D5B00-B7A5-4227-88CB-900B69062A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client.ApiTests", "src\tests\Hepsi.Http.Client.ApiTests\Hepsi.Http.Client.ApiTests.csproj", "{358D7A79-8057-4749-8D39-E70A859F68C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".stubs", ".stubs", "{89A4BD31-38F9-4420-B078-3178E7A6F67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStub", "src\stubs\TestStub\TestStub.csproj", "{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{962AC4A1-D63B-45E4-8218-3EF45523F367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962AC4A1-D63B-45E4-8218-3EF45523F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962AC4A1-D63B-45E4-8218-3EF45523F367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962AC4A1-D63B-45E4-8218-3EF45523F367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29D5B00-B7A5-4227-88CB-900B69062A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29D5B00-B7A5-4227-88CB-900B69062A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29D5B00-B7A5-4227-88CB-900B69062A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29D5B00-B7A5-4227-88CB-900B69062A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358D7A79-8057-4749-8D39-E70A859F68C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358D7A79-8057-4749-8D39-E70A859F68C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358D7A79-8057-4749-8D39-E70A859F68C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358D7A79-8057-4749-8D39-E70A859F68C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D29D5B00-B7A5-4227-88CB-900B69062A53} = {ADAEEEB8-D917-48E0-94D0-CF1AFDE7C3DA}
+		{358D7A79-8057-4749-8D39-E70A859F68C3} = {ADAEEEB8-D917-48E0-94D0-CF1AFDE7C3DA}
+		{D3952FEA-A8CD-4E7B-82F8-EF5099B6913C} = {89A4BD31-38F9-4420-B078-3178E7A6F67F}
+	EndGlobalSection
+EndGlobal
