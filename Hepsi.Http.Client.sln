@@ -7,9 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client", "src\He
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B04BD5CF-4AEB-4EDB-B77D-3B649BCB8868}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Http.Client.Testing", "src\Hepsi.Http.Client.Testing\Hepsi.Http.Client.Testing.csproj", "{6A47CA5B-BD6C-4459-96CB-D3D214E5F1E4}"

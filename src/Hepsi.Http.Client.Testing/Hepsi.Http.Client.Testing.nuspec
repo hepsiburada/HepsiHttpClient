@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Hepsi.Http.Client.Testing</id>
+    <version>0.0.0</version>
+    <authors>hepsiburada.com (https://github.com/hepsiburada)</authors>
+    <licenseUrl>https://raw.githubusercontent.com/hepsiburada/HepsiHttpClient/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/hepsiburada/HepsiHttpClient</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>hepsi http client delegating handlers for unit testing.</description>
+    <copyright>Copyright (c) Hepsiburada.com</copyright>
+    <tags>httpclient http qos logging correlation unit testing</tags>
+  </metadata>
+  <files>
+    <file src="..\build\Hepsi.Http.Client.Testing.dll" target="lib\net45" />
+  </files>
+</package>
