@@ -22,7 +22,7 @@ Properties {
 
 	### Build information
 	$buildNumber = 0;
-	$version = "1.0.0.0"
+	$version = "1.0.1.0"
 	$preRelease = $null
 }
 
@@ -55,7 +55,7 @@ task UpdateVersion {
 	$minor = $vSplit[1]
 	$patch = $vSplit[2]
 	$assemblyFileVersion =  "$major.$minor.$patch.$buildNumber"
-	$assemblyVersion = "$major.$minor.0.0"
+	$assemblyVersion = "$major.$minor.$patch.$buildNumber"
 	$versionAssemblyInfoFile = "$src_directory/Shared/VersionAssemblyInfo.cs"
 	"using System.Reflection;" > $versionAssemblyInfoFile
 	"" >> $versionAssemblyInfoFile

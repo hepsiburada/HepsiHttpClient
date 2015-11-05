@@ -39,6 +39,9 @@
     <Compile Include="..\shared\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\shared\VersionAssemblyInfo.cs">
+      <Link>Properties\VersionAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="FakeResponseDelegatingHandler.cs" />
     <Compile Include="HttpMessageRecorder.cs" />
     <Compile Include="NoOpDelegatingHandler.cs" />
